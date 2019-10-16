@@ -1,11 +1,11 @@
-<?php namespace Zizaco\Entrust;
+<?php namespace Savannabits\Entrust;
 
 /**
  * This file is part of Entrust,
  * a role & permission management solution for Laravel.
  *
  * @license MIT
- * @package Zizaco\Entrust
+ * @package Savannabits\Entrust
  */
 
 use Illuminate\Console\Command;
@@ -26,7 +26,7 @@ class MigrationCommand extends Command
      * @var string
      */
     protected $description = 'Creates a migration following the Entrust specifications.';
-   
+
     /**
      * Execute the console command.
      *

@@ -1,5 +1,5 @@
 {
-    "name": "referion/entrust",
+    "name": "savannabits/entrust",
     "description": "This package provides a flexible way to add Role-based Permissions to Laravel",
     "keywords": ["laravel","illuminate","auth","roles","acl","permission"],
     "license": "MIT",
@@ -19,7 +19,12 @@
         {
             "name": "Michele Angioni",
             "email": "michele.angioni@gmail.com"
+        },
+        {
+            "name": "Sam Maosa",
+            "email": "maosa.sam@gmail.com"
         }
+
     ],
     "require": {
         "php": ">=7.2.0",
@@ -38,16 +43,16 @@
             "src/commands"
         ],
         "psr-4": {
-            "Zizaco\\Entrust\\": "src/Entrust/"
+            "Savannabits\\Entrust\\": "src/Entrust/"
         }
     },
     "extra":{
         "laravel":{
             "providers":[
-                "Zizaco\\Entrust\\EntrustServiceProvider"
+                "Savannabits\\Entrust\\EntrustServiceProvider"
             ],
             "aliases":{
-                "Entrust": "Zizaco\\Entrust\\EntrustFacade"
+                "Entrust": "Savannabits\\Entrust\\EntrustFacade"
             }
         }
     },

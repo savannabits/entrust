@@ -1,6 +1,6 @@
 <?php
 
-use Zizaco\Entrust\Entrust;
+use Savannabits\Entrust\Entrust;
 use Illuminate\Support\Facades\Facade;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
@@ -68,7 +68,7 @@ class EntrustTest extends TestCase
         |------------------------------------------------------------
         */
         $app = new stdClass();
-        $entrust = m::mock('Zizaco\Entrust\Entrust[user]', [$app]);
+        $entrust = m::mock('Savannabits\Entrust\Entrust[user]', [$app]);
         $user = m::mock('_mockedUser');
 
         /*
@@ -112,7 +112,7 @@ class EntrustTest extends TestCase
         |------------------------------------------------------------
         */
         $app = new stdClass();
-        $entrust = m::mock('Zizaco\Entrust\Entrust[user]', [$app]);
+        $entrust = m::mock('Savannabits\Entrust\Entrust[user]', [$app]);
         $user = m::mock('_mockedUser');
 
         /*
@@ -352,7 +352,7 @@ class EntrustTest extends TestCase
         // Mock Objects
         $app         = m::mock('Illuminate\Foundation\Application');
         $app->router = m::mock('Route');
-        $entrust     = m::mock("Zizaco\Entrust\Entrust[$mockedMethod]", [$app]);
+        $entrust     = m::mock("Savannabits\Entrust\Entrust[$mockedMethod]", [$app]);
 
         // Static values
         $route       = 'route';
@@ -402,7 +402,7 @@ class EntrustTest extends TestCase
     ) {
         $app         = m::mock('Illuminate\Foundation\Application');
         $app->router = m::mock('Route');
-        $entrust     = m::mock('Zizaco\Entrust\Entrust[hasRole, can]', [$app]);
+        $entrust     = m::mock('Savannabits\Entrust\Entrust[hasRole, can]', [$app]);
 
         // Static values
         $route      = 'route';

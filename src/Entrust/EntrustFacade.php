@@ -1,4 +1,4 @@
-<?php namespace Zizaco\Entrust;
+<?php namespace Savannabits\Entrust;
 
 /**
  * This file is part of Entrust,

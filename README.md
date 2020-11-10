@@ -1,4 +1,4 @@
-# ENTRUST (Laravel 6 Package)
+# ENTRUST (Laravel >=6 Package)
 
 [![Build Status](https://travis-ci.org/Savannabits/entrust.svg)](https://travis-ci.org/Savannabits/entrust)
 [![Version](https://img.shields.io/packagist/v/Savannabits/entrust.svg)](https://packagist.org/packages/savannabits/entrust)
@@ -7,7 +7,7 @@
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/cc4af966-809b-4fbc-b8b2-bb2850e6711e/small.png)](https://insight.sensiolabs.com/projects/cc4af966-809b-4fbc-b8b2-bb2850e6711e)
 
-Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 6**.
+Entrust is a succinct and flexible way to add Role-based Permissions to **Laravel 6,7 and 8**.
 
 If you are looking for the Laravel 4 version, take a look [Branch 1.0](https://github.com/Savannabits/entrust/tree/1.0). It
 contains the latest entrust version for Laravel 4.
